@@ -1,10 +1,11 @@
-'''to use it, shoud be installed aws cli and configured
-#Install required python libs before execution
+'''Version 1.0 Owned By Vitalii Fedorak
+To use it, shoud be installed aws cli and configured
+Install required python libs before execution.
 Run the script with the parameter " > s3list.txt" or "s3list.csv" to save the output to a file.
 After the script finished, you may convert the file to *.xslx .  
 With formating data by ","  you will receive row |bucket_name|creation_date|tag1|tag2|tag3|tagn|
 
-To improve the speed of execution script you may run it from the EC2 instance'''
+To improve the speed of execution the script you may run it from the EC2 instance'''
 
 import boto3
 from botocore.exceptions import ClientError
